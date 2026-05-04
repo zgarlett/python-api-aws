@@ -1,0 +1,22 @@
+{
+  "name": "python-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sst dev",
+    "deploy": "sst deploy",
+    "deploy:prod": "sst deploy --stage production",
+    "remove": "sst remove",
+    "console": "sst console"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sst": "^4.12.10"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
